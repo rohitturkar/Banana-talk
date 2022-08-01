@@ -1,0 +1,25 @@
+#txt-input{
+    display:block;
+    width:80%;
+    padding:2rem;
+    height:10vh;
+    border:2px solid black;
+    font-size: 1rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+#btn-translate{
+    padding:0.5rem 1rem;
+    margin-bottom:1rem;
+    border-radius:0.5rem;
+}
+#output{
+    display:block;
+    width:80%;
+    border:2px solid black;
+    height:10vh;
+    padding:2rem;
+    font-size:1rem;
+    margin-top:1rem
+}
