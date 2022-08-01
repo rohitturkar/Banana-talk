@@ -1,9 +1,29 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Mouse+Memoirs&display=swap');
+body {
+    font-family: 'Langar', cursive;
+    margin:0px;
+}
+:root{
+   --primary-color:#fbc34b;
+   --dark-grey: #1c1c1c;
+}
 .container-center {
     max-width: 600px;
     margin: auto;
 }
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    
+}
+
+.navigation h1{
+    font-weight: bold;
+    font-size:2rem;
+    text-align: center;
+    color:var(--dark-grey); 
+}
+
 
 #txt-input{
     display:block;
@@ -14,12 +34,18 @@
     font-size: 1rem;
     margin-top:1rem;
     margin-bottom:1rem;
+    font-family: 'Langar', cursive;
 }
 
 #btn-translate{
-    padding:0.5rem 1rem;
+    padding:0.8rem 1rem;
     margin-bottom:1rem;
     border-radius:0.5rem;
+    background-color:var(--primary-color);
+    color:black;
+    border:none;
+    font-family: 'Langar', cursive;
+    cursor:pointer;
     
 }
 #output{
@@ -30,4 +56,27 @@
     padding:2rem;
     font-size:1rem;
     margin-top:1rem
+}
+
+
+
+/* footer */
+.footer{
+    background-color:var(--primary-color);
+    padding:1rem;
+    text-align:center;
+    margin-top:1rem;
+    color:var(--dark-grey);
+}
+
+.footer-header{
+    font-weight:bold;
+    font-size:1.5rem;    
+}
+
+#footer-para{
+    font-size:1.2rem;
+    margin:auto;
+    
+    
 }
