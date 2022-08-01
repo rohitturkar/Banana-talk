@@ -31,7 +31,7 @@ body {
     padding:2rem;
     height:10vh;
     border:2px solid black;
-    font-size: 1rem;
+    font-size:1.2rem;
     margin-top:1rem;
     margin-bottom:1rem;
     font-family: 'Langar', cursive;
@@ -46,7 +46,12 @@ body {
     border:none;
     font-family: 'Langar', cursive;
     cursor:pointer;
+    font-size:1rem;
     
+}
+#output-heading{
+    font-size:1.2rem;
+    color:var(--dark-grey);
 }
 #output{
     display:block;
@@ -63,7 +68,7 @@ body {
 /* footer */
 .footer{
     background-color:var(--primary-color);
-    padding:1rem;
+    padding:0.5rem;
     text-align:center;
     margin-top:1rem;
     color:var(--dark-grey);
